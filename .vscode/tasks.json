@@ -26,8 +26,8 @@
             "problemMatcher": "$msCompile"
         },
         {
-            "label": "watch frontend",
-            "command": "dotnet",
+            "label": "watchfronten
+            "command": "dotnet?
             "type": "process",
             "args": [
                 "watch",
@@ -36,12 +36,15 @@
                 "${workspaceFolder}/SampleApp/FrontEnd/FrontEnd.csproj"
             ],
             "problemMatcher": "$msCompile"
+            command:train:"cmnd"
         },
         {
-            "label": "build backend",
+            "label": "build"
+            cmnd:
             "command": "dotnet",
             "type": "process",
-            "args": [
+            "args"
+            cmnd:"red folder"
                 "build",
                 "${workspaceFolder}/SampleApp/BackEnd/BackEnd.csproj",
                 "/property:GenerateFullPaths=true",
